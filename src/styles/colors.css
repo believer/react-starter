@@ -1,0 +1,31 @@
+/* ==================================================================
+   Colors
+   ================================================================== */
+
+:root {
+  /* Primary */
+  --color-white: rgb(255, 255, 255);            /* #ffffff */
+  --color-black: rgb(0, 0, 0);                  /* #000000 */
+
+  /* Secondary */
+  --color-supernova: rgb(255, 204, 0);          /* #ffcc00 */
+  --color-gamboge: rgb(221, 156, 19);           /* #dd9c13 */
+  --color-bright-sun: rgb(255, 224, 69);        /* #ffe045 */
+
+  --color-zorba: rgb(152, 146, 139);            /* #98928b */
+  --color-fuscous-gray: rgb(75, 73, 69);        /* #4b4945 */
+  --color-tide: rgb(184, 180, 174);             /* #b8b4ae */
+
+  /* Complementary */
+  --color-apple: rgb(53, 170, 63);              /* #35aa3f */
+  --color-camarone: rgb(0, 95, 39);             /* #005f27 */
+  --color-celery: rgb(148, 195, 87);            /* #94c357 */
+
+  --color-monza: rgb(227, 6, 19);               /* #e30613 */
+  --color-red-berry: rgb(138, 16, 2);           /* #8a1002 */
+  --color-illusion: rgb(243, 159, 197);         /* #f39fc5 */
+
+  --color-deep-cerulean: rgb(0, 111, 177);      /* #006fb1 */
+  --color-prussian-blue: rgb(0, 36, 78);        /* #00244e */
+  --color-havelock-blue: rgb(82, 162, 218);     /* #52a2da */
+}

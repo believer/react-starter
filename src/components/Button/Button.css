@@ -1,0 +1,13 @@
+/* ==================================================================
+   Buttons
+   ================================================================== */
+
+@import "../../styles/colors.css";
+@import "../../styles/sizes.css";
+
+.button {
+  appearance: none;
+  background: var(--color-supernova);
+  border: 0;
+  padding: var(--spacing-third) var(--spacing);
+}

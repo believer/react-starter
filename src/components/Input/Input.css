@@ -1,0 +1,31 @@
+/* ==================================================================
+   Input
+   ================================================================== */
+
+@import "styles/colors";
+@import "styles/sizes";
+
+.input {
+  border: var(--border-width) solid var(--color-supernova);
+  margin: var(--spacing-third) 0;
+  padding: var(--spacing-third) var(--spacing);
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.text {
+  composes: input;
+}
+
+.tel {
+  composes: input;
+
+  border-color: var(--color-celery);
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+}
