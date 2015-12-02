@@ -15,16 +15,6 @@
   }
 }
 
-.text {
-  composes: input;
-}
-
-.tel {
-  composes: input;
-
-  border-color: var(--color-celery);
-}
-
 .label {
   display: block;
   font-weight: bold;

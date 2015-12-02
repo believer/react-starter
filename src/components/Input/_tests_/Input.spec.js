@@ -3,7 +3,7 @@ let expect = chai.expect;
 import React from 'react';
 import sd from 'skin-deep';
 import proxyquire from 'proxyquire';
-let File, { Input } = proxyquire('../Input', {
+let Input = proxyquire('../Input', {
   'react-css-modules': function () { return function () {} },
   './Input.css': {}
 })
@@ -21,7 +21,7 @@ describe('Input', () => {
     );
 
     vdom = tree.getRenderOutput();
-    input = tree.findNode('Input');
+    input = tree.findNode('input');
   });
 
   it('should render', () => {
@@ -54,7 +54,7 @@ describe('Input', () => {
     );
 
     vdom = tree.getRenderOutput();
-    input = tree.findNode('Input');
+    input = tree.findNode('input');
     expect(input.props.type).to.eql('tel');
   });
 
@@ -63,6 +63,6 @@ describe('Input', () => {
   });
 
   it('should send styleName to input', () => {
-    expect(input.props.styleName).to.eql('text');
+    expect(input.props.styleName).to.eql('input');
   });
 });
