@@ -22,7 +22,8 @@ class Input extends Component {
         <input
           {...this.props}
           id={this.props.name}
-          styleName={this.props.type}
+          styleName="input"
+          type={this.props.type || 'text'}
           />
       </div>
     )

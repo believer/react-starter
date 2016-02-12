@@ -10,7 +10,6 @@ Based on [React Transform Boilerplate](https://github.com/gaearon/react-transfor
 ```
 git clone https://github.com/believer/react-starter.git
 npm install
-bower install
 
 npm start
 ```

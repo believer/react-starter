@@ -3,7 +3,7 @@ let expect = chai.expect;
 import React from 'react';
 import sd from 'skin-deep';
 import proxyquire from 'proxyquire';
-let File, { Button } = proxyquire('../Button', {
+let Button = proxyquire('../Button', {
   'react-css-modules': function () { return function () {} },
   './Button.css': {}
 })
