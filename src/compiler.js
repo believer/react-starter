@@ -1,11 +1,11 @@
-var babel = require('babel');
+var babel = require('babel-core');
 var fs = require('fs');
 var origJs = require.extensions['.js'];
 
 function transform (filename) {
   var content = fs.readFileSync(filename, 'utf8');
   return babel.transform(content, {
-    optional: [ 'es7.decorators' ]
+    'presets':  ['es2015', 'stage-0', 'react']
   }).code;
 }
 

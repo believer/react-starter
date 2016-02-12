@@ -1,11 +1,5 @@
-@import "../../styles/grid";
-
-:global {
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-}
+@import "../../assets/styles/globals";
+@import "../../assets/styles/grid";
 
 .data {
   margin-top: 20px;

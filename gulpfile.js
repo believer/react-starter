@@ -3,7 +3,6 @@ var mocha = require('gulp-mocha');
 var env = require('gulp-env');
 
 require('./src/compiler.js');
-require('babel/register');
 
 gulp.task('mocha', function() {
   env({

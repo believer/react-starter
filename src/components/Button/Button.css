@@ -2,8 +2,8 @@
    Buttons
    ================================================================== */
 
-@import "../../styles/colors.css";
-@import "../../styles/sizes.css";
+@import "../../assets/styles/colors";
+@import "../../assets/styles/sizes";
 
 .button {
   appearance: none;

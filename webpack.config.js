@@ -30,8 +30,7 @@ const plugins = [
     fetch: 'imports?this=>global!exports?global.fetch!whatwg-fetch',
   }),
   new TransferWebpackPlugin([
-    { from: 'assets/images/', to: '.' },
-    { from: 'assets/content/', to: '.' }
+    { from: 'assets/images/', to: '.' }
   ], path.join(__dirname, 'src')),
   new webpack.NoErrorsPlugin(),
   new webpack.optimize.CommonsChunkPlugin(
