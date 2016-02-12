@@ -3,6 +3,7 @@
 Based on [React Transform Boilerplate](https://github.com/gaearon/react-transform-boilerplate).
 
 #### Extra features
+* Actions / stores with [alt](https://github.com/goatslacker/alt)
 * [CSS-modules](https://github.com/gajus/react-css-modules)
 * React testing using [skin-deep](https://github.com/glenjamin/skin-deep)
 
