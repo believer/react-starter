@@ -4,8 +4,8 @@
 
 :global {
   --grid-columns: 12;
-  --gutter-compensation: calc((var(--gutter-width) * .5) * -1);
   --gutter-width: 1rem;
+  --gutter-compensation: calc((var(--gutter-width) * .5) * -1);
   --name: xs;
   --outer-margin: 1rem;
 
